@@ -8,7 +8,7 @@ import { saveFeatures } from "../constants/data"
 const Save = () => (
   <Layout>
     <SEO title="Save" />
-    <div class="header-content">
+    <div className="header-content">
       <h1>save</h1>
 
       <p>

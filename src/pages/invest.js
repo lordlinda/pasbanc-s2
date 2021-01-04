@@ -7,7 +7,7 @@ import { investFeatures } from "../constants/data"
 const Invest = () => (
   <Layout>
     <SEO title="Invest" />
-    <div class="header-content">
+    <div className="header-content">
       <h1>Invest</h1>
 
       <p>

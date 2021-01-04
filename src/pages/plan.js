@@ -7,7 +7,7 @@ import { planFeatures } from "../constants/data"
 const Plan = () => (
   <Layout>
     <SEO title="Plan" />
-    <div class="header-content">
+    <div className="header-content">
       <h1>PLAN</h1>
 
       <p>

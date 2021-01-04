@@ -8,7 +8,7 @@ import { learnFeatures } from "../constants/data"
 const Learn = () => (
   <Layout>
     <SEO title="Learn" />
-    <div class="header-content">
+    <div className="header-content">
       <h1>Learn</h1>
 
       <p>
