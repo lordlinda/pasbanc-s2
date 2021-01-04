@@ -17,9 +17,9 @@ function Feature(props) {
         {links.map(link => (
           <>
             <span key={link.name} className="feature__links">
-              <a onClick={handleChange.bind(this, link)} href="#">
+              <button onClick={handleChange.bind(this, link)} href="#">
                 {link.name}
-              </a>
+              </button>
             </span>
             <Modal
               open={open}

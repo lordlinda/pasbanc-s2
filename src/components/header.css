@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px;
+  padding: 0px 16px;
 }
 
 .header__links {
@@ -34,7 +34,7 @@ a {
   font-family: "Condiment", cursive;
 }
 .toggle-btn {
-  font-size: 2rem;
+  font-size: 1.5rem;
   background: transparent;
   border-color: transparent;
   cursor: pointer;
@@ -55,7 +55,7 @@ a {
   .header__links a {
     text-transform: capitalize;
     font-weight: bold;
-    color: #4079fa;
+    color: black;
     padding: 0.5rem 0;
   }
   .header__linkss a:hover {
