@@ -28,6 +28,13 @@ function About() {
   return (
     <Layout>
       <SEO title="About" />
+      <h2>About Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet excepturi
+        atque veritatis laborum, rerum, a obcaecati velit voluptates voluptas
+        incidunt unde in, harum dicta aspernatur ipsam quasi labore! Tempore,
+        sed.
+      </p>
       <ul class="nav nav-tabs">
         <li class="active">
           <a data-toggle="tab" href="#home">
