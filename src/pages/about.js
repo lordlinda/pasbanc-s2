@@ -2,29 +2,8 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Box from "@material-ui/core/Box"
-import Typography from "@material-ui/core/Typography"
-
-function TabPanel(props) {
-  const { children, value, index, ...other } = props
-
-  return (
-    <div role="tabpanel" hidden={value !== index} {...other}>
-      {value === index && (
-        <Box p={3}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
-    </div>
-  )
-}
 
 function About() {
-  const [value, setValue] = React.useState(2)
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue)
-  }
   return (
     <Layout>
       <SEO title="About" />
