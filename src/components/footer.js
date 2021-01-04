@@ -1,5 +1,4 @@
 import React from "react"
-import SocialLinks from "../constants/socialLinks"
 import "./footer.css"
 const Footer = () => {
   return (
@@ -53,16 +52,16 @@ const Footer = () => {
             <h5>Products</h5>
             <hr className="light" />
             <p>
-              <a href="#">Security</a>
+              <a href="#/">Security</a>
             </p>
             <p>
-              <a href="#">Terms</a>
+              <a href="#/">Terms</a>
             </p>
             <p>
-              <a href="#">Privacy</a>
+              <a href="#/">Privacy</a>
             </p>
             <p>
-              <a href="#">Legal</a>
+              <a href="#/">Legal</a>
             </p>
           </div>
 
@@ -71,17 +70,17 @@ const Footer = () => {
             <h5>Contact</h5>
             <hr className="light" />
             <p>
-              <a href="#">
+              <a href="#/">
                 <i className="fas fa-home mr-3"></i>Uganda Makerere
               </a>
             </p>
             <p>
-              <a href="#">
+              <a href="#/">
                 <i className="fas fa-envelope mr-3"></i> pasbanc@gmail.com
               </a>
             </p>
             <p>
-              <a href="#">
+              <a href="#/">
                 <i className="fas fa-phone mr-3"></i> +256875835
               </a>
             </p>
@@ -92,22 +91,22 @@ const Footer = () => {
             <h5>Follow us</h5>
             <hr className="light" />
             <p>
-              <a className="fb-ic" href="#">
+              <a className="fb-ic" href="#/">
                 <i className="fab fa-facebook-f white-text mr-4"> </i>
               </a>
             </p>
             <p>
-              <a className="tw-ic" href="#">
+              <a className="tw-ic" href="#/">
                 <i className="fab fa-twitter white-text mr-4"> </i>
               </a>
             </p>
             <p>
-              <a className="gplus-ic" href="#">
+              <a className="gplus-ic" href="#/">
                 <i className="fab fa-google-plus-g white-text mr-4"> </i>
               </a>
             </p>
             <p>
-              <a className="li-ic" href="#">
+              <a className="li-ic" href="#/">
                 <i className="fab fa-linkedin-in white-text mr-4"> </i>
               </a>
             </p>

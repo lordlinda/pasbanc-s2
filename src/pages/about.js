@@ -54,52 +54,52 @@ function About() {
             <h2>Values</h2>
             <ul id="values">
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
               <li>
-                <a href="">value one</a>
+                <a href="/#">value one</a>
               </li>
             </ul>
             <br />
@@ -109,7 +109,7 @@ function About() {
               enim similique odio nostrum exercitationem dicta dolor accusamus
               quos ducimus commodi hic dolorum omnis architecto neque, tenetur
               harum quidem cum. Maiores?
-              <a class="toolTip" href="#" data-placement="auto">
+              <a class="toolTip" href="#/" data-placement="auto">
                 <sup>&#91;1&#93;</sup>
                 <span class="custom">
                   <em>Critical</em>This is just an example of what you can do
@@ -155,7 +155,7 @@ function About() {
               <h1>Value one</h1>
               Here are some examples of a{" "}
               <sup>
-                <a class="toolTip" href="#">
+                <a class="toolTip" href="#/">
                   &#91;1&#93;
                 </a>
               </sup>
