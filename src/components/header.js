@@ -15,9 +15,6 @@ const Header = ({ siteTitle, toggleSidebar }) => {
         handleShow(false)
       }
     })
-    return () => {
-      window.removeEventListener("scroll")
-    }
   }, [])
 
   return (
