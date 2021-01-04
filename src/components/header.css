@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 16px;
+  padding: 16px;
 }
 
 .header__links {
@@ -52,4 +52,8 @@ a {
   .header__linkss a:hover {
     color: grey;
   }
+}
+
+.header__shadow {
+  background: #4079fa;
 }

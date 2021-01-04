@@ -11,8 +11,8 @@
   justify-content: center;
   /*this ensures it occupies the whole screen width*/
   height: 100vh;
+  margin-top: -56px;
   background-image: url("../assets/macOS-Wallpapers-06\ .jpg");
-  min-height: 100%;
   /*this remaining properties are for the parrallax image behind the text*/
   /*this allows the center part of the image to be viwed in all sizes*/
   background-position: center;
