@@ -1,5 +1,5 @@
 import React from "react"
-
+import "./features.css"
 import Feature from "./feature"
 function Features({ features }) {
   return (

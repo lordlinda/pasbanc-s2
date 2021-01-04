@@ -1,0 +1,41 @@
+.hero {
+  color: #fff;
+  text-align: center;
+  display: flex;
+  /*this allows the content to be displayed downwards and not sideways*/
+  flex-direction: column;
+  /*the button and text are centered with each other*/
+  align-items: center;
+  /*this allows the content to be placed in the centre */
+
+  justify-content: center;
+  /*this ensures it occupies the whole screen width*/
+  height: 100vh;
+  background-image: url("../assets/macOS-Wallpapers-06\ .jpg");
+  min-height: 100%;
+  /*this remaining properties are for the parrallax image behind the text*/
+  /*this allows the center part of the image to be viwed in all sizes*/
+  background-position: center;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: 32px;
+  margin-top: 120px;
+  line-height: 38px;
+}
+.hero__button {
+  background-color: #4079fa;
+  margin-top: 16px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  padding: 11px 34px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

@@ -1,8 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
+import "./about.css"
 function About() {
   return (
-    <div className="aboutus-section">
+    <div className="about">
       <div>
         <h4>About us</h4>
         <p>about us content here</p>

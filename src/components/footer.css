@@ -1,0 +1,23 @@
+.footer {
+  background-color: rgb(0, 0, 45);
+  color: white;
+  /*distance of the footer from the feature conatiner*/
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer > div {
+  min-width: 200px;
+  text-align: center;
+}
+.footer div ul li {
+  margin-top: 8px;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

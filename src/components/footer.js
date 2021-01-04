@@ -1,5 +1,6 @@
 import React from "react"
 import SocialLinks from "../constants/socialLinks"
+import "./footer.css"
 const Footer = () => {
   return (
     <footer className="footer">
@@ -32,12 +33,12 @@ const Footer = () => {
       </div>
       <div>
         <h4>follow us</h4>
-        <SocialLinks styleClass="footer-links"></SocialLinks>
-        <h4>
-          copyright&copy;{new Date().getFullYear()}
-          <span> Pasbanc </span> all rights reserved
-        </h4>
+        <SocialLinks styleClass="footer__links"></SocialLinks>
       </div>
+      <h4>
+        copyright&copy;{new Date().getFullYear()}
+        <span> Pasbanc </span> all rights reserved
+      </h4>
     </footer>
   )
 }

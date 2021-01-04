@@ -1,0 +1,9 @@
+.features {
+  padding: 16px;
+  margin-top: 32px;
+  background: #f4f7fc;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

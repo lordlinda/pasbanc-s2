@@ -1,0 +1,49 @@
+.show-sidebar {
+  background: #000;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  opacity: 0;
+  transform: translateX(-100%);
+  padding-top: 16px;
+}
+.show-sidebar {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.close-btn {
+  position: absolute;
+  right: 4.75%;
+  top: 2.75%;
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  color: red;
+  cursor: pointer;
+}
+
+.sidebar__links {
+  text-align: center;
+  margin-top: 42px;
+}
+.sidebar__links > li {
+  margin-top: 8px;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 992px) {
+  .sidebar {
+    transform: translateX(-100%);
+  }
+}

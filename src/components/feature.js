@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import Modal from "./Modal"
+import "./feature.css"
 function Feature(props) {
   const { title, content, links } = props.feature
   const [open, setOpen] = useState(false)
@@ -12,11 +13,13 @@ function Feature(props) {
     <div className="feature">
       <h4>{title}</h4>
       <p>{content}</p>
-      <div className="feature-overlay">
+      <div className="feature__overlay">
         {links.map(link => (
           <>
-            <span key={link.name}>
-              <p onClick={handleChange.bind(this, link)}>{link.name}</p>
+            <span key={link.name} className="feature__links">
+              <a onClick={handleChange.bind(this, link)} href="#">
+                {link.name}
+              </a>
             </span>
             <Modal
               open={open}

@@ -1,0 +1,55 @@
+.header {
+  /*this is the background color for the navbar*/
+  background-color: transparent;
+  height: 56px;
+  /*this is vital as position fixed shortens the navbar*/
+  z-index: 100;
+  /*this ensures it remains at the top*/
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.header__center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 16px;
+}
+
+.header__links {
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*this is the first part of logo  pas*/
+.header__logoSectionOne {
+  color: #0f0;
+}
+/*this is the second pat of the logo banc*/
+.header__logoSectionTwo {
+  color: gold;
+}
+
+@media screen and (min-width: 768px) {
+  .toggle-btn {
+    display: none;
+  }
+  .header__links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header__links li {
+    margin-right: 2rem;
+  }
+  .header__links a {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #4079fa;
+    padding: 0.5rem 0;
+  }
+  .header__linkss a:hover {
+    color: grey;
+  }
+}

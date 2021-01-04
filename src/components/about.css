@@ -1,0 +1,12 @@
+.about {
+  background: #7f51c8;
+  margin-top: 32px;
+  padding: 24px 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about > div {
+  flex: 1;
+  min-height: 200px;
+  color: white;
+}
