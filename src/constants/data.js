@@ -1,9 +1,14 @@
 /**home features */
 export const features = [
   {
+<<<<<<< HEAD
     title: "Plan",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar fringilla diam, eu fringilla nisi pretium porta. Nam cursus, sapien sit amet dignissim auctor, arcu lorem convallis dui, eu feugiat metus nulla sit amet dolor. Nulla ",
+=======
+    title: "plan",
+    content: "Planning is cools",
+>>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
     links: [
       {
         name: "link1",
@@ -24,6 +29,7 @@ export const features = [
     ],
   },
   {
+<<<<<<< HEAD
     title: "Save",
     content:
       "saving Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar fringilla diam, eu fringilla nisi pretium porta. Nam cursus, sapien sit amet dignissim auctor, arcu lorem convallis dui, eu feugiat metus nulla sit amet dolor. Nulla . ",
@@ -96,6 +102,10 @@ export const features = [
     title: "Supply",
     content:
       "saving Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar fringilla diam, eu fringilla nisi pretium porta. Nam cursus, sapien sit amet dignissim auctor, arcu lorem convallis dui, eu feugiat metus nulla sit amet dolor. Nulla consequat sollicitudin neque eget varius. Duis mattis nibh eget sem  ",
+=======
+    title: "save",
+    content: "saving is fun",
+>>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
     links: [
       {
         name: "link3",

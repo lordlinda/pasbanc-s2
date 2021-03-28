@@ -4,13 +4,20 @@ import PageLinks from "../constants/links"
 import { FaAlignJustify } from "react-icons/fa"
 import { Link } from "gatsby"
 import "./header.css"
+<<<<<<< HEAD
 
+=======
+>>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
 const Header = ({ siteTitle, toggleSidebar }) => {
   const [show, handleShow] = useState(false)
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
+<<<<<<< HEAD
       if (window.scrollY > 80) {
+=======
+      if (window.scrollY > 100) {
+>>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
         handleShow(true)
       } else {
         handleShow(false)
@@ -30,6 +37,7 @@ const Header = ({ siteTitle, toggleSidebar }) => {
         <button type="button" className="toggle-btn" onClick={toggleSidebar}>
           <FaAlignJustify></FaAlignJustify>
         </button>
+<<<<<<< HEAD
         <div className="header__links">
           <PageLinks></PageLinks>
           <a className="header__login" href="/">
@@ -39,6 +47,10 @@ const Header = ({ siteTitle, toggleSidebar }) => {
             Signup
           </a>
         </div>
+=======
+
+        <PageLinks styleClass="header__links"></PageLinks>
+>>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
       </div>
     </nav>
   )

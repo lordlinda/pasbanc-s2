@@ -2,6 +2,7 @@
   background-color: rgb(0, 0, 45);
   color: white;
   /*distance of the footer from the feature conatiner*/
+<<<<<<< HEAD
   display: grid;
   place-items: center;
   padding-top: 32px;
@@ -25,4 +26,37 @@
 .follow__links {
   display: flex;
   justify-content: center;
+=======
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 16px;
+}
+
+.footer > div {
+  min-width: 200px;
+  text-align: center;
+  margin-top: 8px;
+}
+.footer div ul li {
+  margin-top: 8px;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+hr {
+  display: none;
+}
+
+footer h5 {
+  color: #fff;
+  padding-bottom: 25px;
+}
+footer a {
+  color: #ddd;
+>>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
 }

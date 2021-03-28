@@ -12,6 +12,10 @@ import Header from "./header"
 import Sidebar from "./Sidebar"
 import Footer from "./footer"
 import "./layout.css"
+<<<<<<< HEAD
+=======
+
+>>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -32,7 +36,10 @@ const Layout = ({ children }) => {
         siteTitle={data.site.siteMetadata?.title || `Title`}
         toggleSidebar={toggleSidebar}
       />
+<<<<<<< HEAD
 
+=======
+>>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       {children}
       <Footer />

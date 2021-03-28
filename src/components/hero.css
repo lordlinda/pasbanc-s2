@@ -1,4 +1,8 @@
 .hero {
+<<<<<<< HEAD
+=======
+  color: #fff;
+>>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
   text-align: center;
   display: flex;
   /*this allows the content to be displayed downwards and not sideways*/
@@ -10,8 +14,13 @@
   justify-content: center;
   /*this ensures it occupies the whole screen width*/
   height: 100vh;
+<<<<<<< HEAD
   margin-top: -75px;
   background-image: url("../assets/aw3fh-37vfb.webp");
+=======
+  margin-top: -56px;
+  background-image: url("../assets/macOS-Wallpapers-06\ .jpg");
+>>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
   /*this remaining properties are for the parrallax image behind the text*/
   /*this allows the center part of the image to be viwed in all sizes*/
   background-position: center;
@@ -23,6 +32,7 @@
 
 .hero h1 {
   font-weight: 800;
+<<<<<<< HEAD
   font-size: 36px;
   line-height: 42px;
   color: white;
@@ -51,4 +61,20 @@
   .hero {
     height: 70vh;
   }
+=======
+  font-size: 32px;
+  margin-top: 120px;
+  line-height: 38px;
+}
+.hero__button {
+  background-color: #4079fa;
+  margin-top: 16px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  padding: 11px 34px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+>>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
 }
