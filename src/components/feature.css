@@ -1,23 +1,15 @@
 .feature {
   max-width: 346px;
   position: relative;
-<<<<<<< HEAD
   padding: 24px 16px;
-=======
-  padding: 16px;
->>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
   border-radius: 16px;
   margin-top: 16px;
   box-shadow: 0 26px 30px -14px rgba(0, 102, 245, 0.08);
   min-width: 200px;
 }
-<<<<<<< HEAD
 .feature h4 {
   font-weight: 700;
 }
-=======
-
->>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
 /*this is styling for what shows up on hovering*/
 .feature__overlay {
   opacity: 0;
