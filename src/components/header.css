@@ -1,0 +1,81 @@
+.header {
+  /*this is the background color for the navbar*/
+  background-color: transparent;
+  /*this is vital as position fixed shortens the navbar*/
+  z-index: 100;
+  /*this ensures it remains at the top*/
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 16px;
+}
+.header__center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 16px;
+}
+
+.header__links {
+  display: none;
+}
+
+/*this is the first part of logo  pas*/
+.header__logoSectionOne {
+  color: #0f0;
+  font-family: "Condiment", cursive;
+}
+/*this is the second pat of the logo banc*/
+.header__logoSectionTwo {
+  color: gold;
+  font-family: "Condiment", cursive;
+}
+.toggle-btn {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  border: none !important;
+}
+.header__login {
+  border: 1px solid #6c63ff;
+  padding: 8px !important;
+  border-radius: 8px;
+}
+.header__signup {
+  background-color: #6c63ff;
+  color: white !important;
+  padding: 8px !important;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .toggle-btn {
+    display: none;
+  }
+  .header__links,
+  .header__links > ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+  }
+  .header__links li,
+  .header__links a {
+    margin-right: 2rem;
+  }
+
+  .page__link > a {
+    font-weight: 800;
+    display: inline-block;
+    position: relative;
+    color: black;
+  }
+
+  .page__link > a:hover {
+    color: #6c63ff;
+  }
+}
+
+.header__shadow {
+  background: #fff;
+}

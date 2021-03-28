@@ -1,0 +1,28 @@
+.footer {
+  background-color: rgb(0, 0, 45);
+  color: white;
+  /*distance of the footer from the feature conatiner*/
+  display: grid;
+  place-items: center;
+  padding-top: 32px;
+}
+
+.footer > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer > div > div {
+  min-width: 200px;
+  margin: 10px auto;
+  text-align: center;
+}
+.footer h5 {
+  font-weight: 600;
+}
+.footer a {
+  color: white;
+}
+.follow__links {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,36 @@
+.feature {
+  max-width: 346px;
+  position: relative;
+  padding: 24px 16px;
+  border-radius: 16px;
+  margin-top: 16px;
+  box-shadow: 0 26px 30px -14px rgba(0, 102, 245, 0.08);
+  min-width: 200px;
+}
+.feature h4 {
+  font-weight: 700;
+}
+/*this is styling for what shows up on hovering*/
+.feature__overlay {
+  opacity: 0;
+  /*it must have a position of absolute*/
+  position: absolute;
+  /*this allow it to cover the entire width of the feature box*/
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+}
+.feature:hover .feature__overlay {
+  opacity: 1;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.feature__links {
+  border: none;
+  outline: none;
+}

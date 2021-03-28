@@ -1,0 +1,54 @@
+.hero {
+  text-align: center;
+  display: flex;
+  /*this allows the content to be displayed downwards and not sideways*/
+  flex-direction: column;
+  /*the button and text are centered with each other*/
+  align-items: center;
+  /*this allows the content to be placed in the centre */
+
+  justify-content: center;
+  /*this ensures it occupies the whole screen width*/
+  height: 100vh;
+  margin-top: -75px;
+  background-image: url("../assets/aw3fh-37vfb.webp");
+  /*this remaining properties are for the parrallax image behind the text*/
+  /*this allows the center part of the image to be viwed in all sizes*/
+  background-position: center;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
+  color: white;
+}
+.hero__button {
+  background-color: #4079fa;
+  margin-top: 76px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 16px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  .hero {
+    height: 80vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+}

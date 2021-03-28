@@ -1,0 +1,10 @@
+a {
+  text-decoration: none !important;
+}
+.MuiDrawer-paper > ul {
+  padding: 16px 32px !important;
+  font-size: 20px;
+}
+.MuiDrawer-paper > ul > div {
+  font-weight: 800;
+}

@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header-content {
+  display: flex;
+  /*this allows the content to be displayed downwards and not sideways*/
+  flex-direction: column;
+  /*the content is on the left and not spread out across the screen including the button*/
+  align-items: flex-start;
+  /*this allows the content to be placed right in the centre and not upwards*/
+  justify-content: center;
+  height: 50vh;
+  margin: auto;
+  padding: 20px;
+  /*the text is allowed to move to the right*/
+  text-align: right;
+  background-color: #eefbfb;
+}
+
+.header-content button {
+  background-color: #4079fa;
+  margin-top: 16px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  padding: 11px 34px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none !important;
+}
+
+button:focus,
+button:focus,
+[type="submit"]:focus {
+  outline: none;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+  outline: none !important;
+}

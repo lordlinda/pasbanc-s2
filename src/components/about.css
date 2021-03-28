@@ -1,0 +1,16 @@
+.about {
+  background: #7f51c8;
+  margin-top: 32px;
+  padding: 24px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.about > div {
+  margin-top: 16px;
+  min-width: 200px;
+  color: white;
+}
+.about > div > a {
+  color: white;
+}
