@@ -8,7 +8,6 @@ import { supplyFeatures } from "../constants/data"
 const Supply = () => (
   <Layout>
     <SEO title="Supply" />
-<<<<<<< HEAD
     <div className="header-content">
       <h1>Supply</h1>
       <p>
@@ -16,9 +15,6 @@ const Supply = () => (
       </p>
       <button>Get Started</button>
     </div>
-=======
-
->>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
     <Features features={supplyFeatures} />
   </Layout>
 )

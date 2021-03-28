@@ -5,15 +5,9 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-<<<<<<< HEAD
     "@material-ui/core": "^4.11.3",
     "bootstrap": "^4.5.3",
     "gatsby": "^2.32.4",
-=======
-    "@material-ui/core": "^4.11.2",
-    "bootstrap": "^4.5.3",
-    "gatsby": "^2.26.1",
->>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
     "gatsby-image": "^2.5.0",
     "gatsby-plugin-manifest": "^2.6.1",
     "gatsby-plugin-offline": "^3.4.0",

@@ -1,10 +1,6 @@
 .header {
   /*this is the background color for the navbar*/
   background-color: transparent;
-<<<<<<< HEAD
-=======
-  height: 56px;
->>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
   /*this is vital as position fixed shortens the navbar*/
   z-index: 100;
   /*this ensures it remains at the top*/
@@ -23,12 +19,6 @@
 .header__links {
   display: none;
 }
-<<<<<<< HEAD
-=======
-a {
-  text-decoration: none;
-}
->>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
 
 /*this is the first part of logo  pas*/
 .header__logoSectionOne {
@@ -45,7 +35,6 @@ a {
   background: transparent;
   border-color: transparent;
   cursor: pointer;
-<<<<<<< HEAD
   border: none !important;
 }
 .header__login {
@@ -58,16 +47,12 @@ a {
   color: white !important;
   padding: 8px !important;
   border-radius: 8px;
-=======
-  border: none;
->>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
 }
 
 @media screen and (min-width: 768px) {
   .toggle-btn {
     display: none;
   }
-<<<<<<< HEAD
   .header__links,
   .header__links > ul {
     display: flex;
@@ -88,30 +73,9 @@ a {
 
   .page__link > a:hover {
     color: #6c63ff;
-=======
-  .header__links {
-    display: flex;
-    justify-content: flex-end;
-  }
-  .header__links li {
-    margin-right: 2rem;
-  }
-  .header__links a {
-    text-transform: capitalize;
-    font-weight: bold;
-    color: black;
-    padding: 0.5rem 0;
-  }
-  .header__linkss a:hover {
-    color: grey;
->>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
   }
 }
 
 .header__shadow {
-<<<<<<< HEAD
   background: #fff;
-=======
-  background: #4079fa;
->>>>>>> cfa0e94fb6fd0cf2aab43a009068b3b1e650da4b
 }
