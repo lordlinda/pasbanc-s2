@@ -70,10 +70,6 @@
     position: relative;
     color: black;
   }
-
-  .page__link > a:hover {
-    color: #6c63ff;
-  }
 }
 
 .header__shadow {

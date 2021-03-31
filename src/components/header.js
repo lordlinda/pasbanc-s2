@@ -1,9 +1,9 @@
 import PropTypes from "prop-types"
 import React, { useEffect, useState } from "react"
 import PageLinks from "../constants/links"
-import { FaAlignJustify } from "react-icons/fa"
 import { Link } from "gatsby"
 import "./header.css"
+import MenuIcon from "@material-ui/icons/Menu"
 const Header = ({ siteTitle, toggleSidebar }) => {
   const [show, handleShow] = useState(false)
 
@@ -27,7 +27,7 @@ const Header = ({ siteTitle, toggleSidebar }) => {
           </Link>
         </p>
         <button type="button" className="toggle-btn" onClick={toggleSidebar}>
-          <FaAlignJustify></FaAlignJustify>
+          <MenuIcon />
         </button>
         <div className="header__links">
           <PageLinks></PageLinks>

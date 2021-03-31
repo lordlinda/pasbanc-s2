@@ -80,28 +80,6 @@ const Footer = () => {
 
         <div>
           <h5>Follow us</h5>
-          <div className="follow__links">
-            <p>
-              <a className="fb-ic" href="#/">
-                <i className="fab fa-facebook-f white-text mr-4"> </i>
-              </a>
-            </p>
-            <p>
-              <a className="tw-ic" href="#/">
-                <i className="fab fa-twitter white-text mr-4"> </i>
-              </a>
-            </p>
-            <p>
-              <a className="gplus-ic" href="#/">
-                <i className="fab fa-google-plus-g white-text mr-4"> </i>
-              </a>
-            </p>
-            <p>
-              <a className="li-ic" href="#/">
-                <i className="fab fa-linkedin-in white-text mr-4"> </i>
-              </a>
-            </p>
-          </div>
         </div>
       </div>
       <div>
