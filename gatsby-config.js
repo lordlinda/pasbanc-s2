@@ -3,12 +3,13 @@ module.exports = {
     title: `Pasbanc`,
     description: `The best way to create and manage wealth`,
     author: `@Eadwald`,
-    url: `https://pasbanc.com/`,
+    siteUrl: `https://pasbanc.com/`,
     image: "",
     twitterUsername: "",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

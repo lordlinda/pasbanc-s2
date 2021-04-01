@@ -31,10 +31,10 @@ const Header = ({ siteTitle, toggleSidebar }) => {
         </button>
         <div className="header__links">
           <PageLinks></PageLinks>
-          <a className="header__login" href="/">
+          <a className="header__login" href="https://my.pasbanc.com/signin">
             Login
           </a>
-          <a className="header__signup" href="/">
+          <a className="header__signup" href="https://my.pasbanc.com/signup">
             Signup
           </a>
         </div>
